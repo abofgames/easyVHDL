@@ -67,7 +67,7 @@ Default VHDL file to start editing.
 3. Press F9 to open VVTG.
 4. Edit the wave how you like.
 5. Generate and view (signals might not open so select them from the left panel and open them, zoom fit your signals).
-
+> ⚠️ **Note on VVTG**: Currently, only std_logic and std_logic_vector signal types are supported for simulation and waveform visualization.
 ---
 
 ## 🛠️ Included Tools & Licenses
