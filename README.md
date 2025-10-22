@@ -1,11 +1,104 @@
 # easyVHDL
-a portable VHDL editor using opensource tools like notepad++, GHDL, GTKwave and VVTG customized and compiled in one folder to help beginners learn VHDL using opensource tools.
 
-This package includes:
+**easyVHDL** is a portable VHDL editor and simulator designed to help beginners learn VHDL using open-source tools. It bundles Notepad++, GHDL, GTKWave, and VVTG into a single folder with a preconfigured workspace, allowing users to start editing and simulating VHDL code instantly — no installation required.
 
-- GHDL (GPLv2) by Tristan Gingold — https://github.com/ghdl/ghdl
-- GTKWave (GPLv2) — http://gtkwave.sourceforge.net/
-- Notepad++ (GPLv3) — https://notepad-plus-plus.org/
-- VVTG — https://github.com/abofgames/VVTG
+---
 
-All tools are redistributed under their respective licenses. See the LICENSES folder for details.
+## 📁 File Structure
+
+<details>
+<summary><strong>📁 easyVHDL/</strong></summary>
+
+<details>
+<summary><strong>📄 start.bat</strong></summary>
+Launches Notepad++ with a predefined session and workspace.
+</details>
+
+<details>
+<summary><strong>📁 notepadpp/</strong></summary>
+
+<details>
+<summary><strong>📄 notepad++.exe</strong></summary>
+Portable Notepad++ executable.
+</details>
+
+<details>
+<summary><strong>📁 simulator/</strong></summary>
+
+<details>
+<summary><strong>📄 VVTG.exe</strong></summary>
+Visual VHDL Testbench Generator.
+</details>
+
+<details>
+<summary><strong>📁 ghdl/</strong></summary>
+Contains GHDL binaries and libraries.
+</details>
+
+<details>
+<summary><strong>📁 gtkwave/</strong></summary>
+Contains GTKWave waveform viewer.
+</details>
+
+<details>
+<summary><strong>📁 workspace/</strong></summary>
+
+<details>
+<summary><strong>📄 my_register.vhd</strong></summary>
+Default VHDL file to start editing.
+</details>
+
+</details> <!-- workspace -->
+
+</details> <!-- simulator -->
+
+</details> <!-- notepadpp -->
+
+</details> <!-- easyVHDL -->
+
+
+
+---
+
+## 🚀 Getting Started
+
+1. Run `start.bat` to launch Notepad++ with the default workspace.
+2. Edit `my_register.vhd` or create a new VHDL file or open a new worspace.
+3. Press F9 to open VVTG.
+4. Edit the wave how you like.
+5. Generate and view (signals might not open so select them from the left panel and open them, zoom fit your signals).
+
+---
+
+## 🛠️ Included Tools & Licenses
+
+This package includes the following open-source tools:
+
+| Tool         | License | Source |
+|--------------|---------|--------|
+| [GHDL](https://github.com/ghdl/ghdl) | GNU GPL v2 | by Tristan Gingold |
+| [GTKWave](http://gtkwave.sourceforge.net/) | GNU GPL v2 | GTKWave Team |
+| [Notepad++](https://notepad-plus-plus.org/) | GNU GPL v3 | Notepad++ Team |
+| [VVTG](https://github.com/abofgames/VVTG) | Custom License | by me |
+
+All tools are redistributed under their respective licenses. See the `LICENSES/` folder for full license texts and attribution details.
+
+> ⚠️ **Note on GHDL**: Executables produced by GHDL may not be redistributed without also providing access to the original VHDL source files, per GHDL’s runtime licensing terms.
+
+---
+
+## 📚 Learn More
+
+- [GHDL Documentation](https://ghdl.github.io/ghdl/)
+- [GTKWave Manual](http://gtkwave.sourceforge.net/)
+- [Notepad++ User Guide](https://npp-user-manual.org/)
+- [VVTG GitHub Repo](https://github.com/abofgames/VVTG)
+
+---
+
+## 🤝 Credits
+
+Special thanks to the developers and contributors of the included tools. This project is built on their incredible work.
+
+---
+
