@@ -63,10 +63,16 @@ Default VHDL file to start editing.
 ## 🚀 Getting Started
 
 1. Run `start.bat` to launch Notepad++ with the default workspace.
+![Editor View](screenshots/1.png)
 2. Edit `my_register.vhd` or create a new VHDL file or open a new worspace.
 3. Press F9 to open VVTG.
+![Editor View](screenshots/2.png)
 4. Edit the wave how you like.
+![Editor View](screenshots/3.png)
 5. Generate and view (signals might not open so select them from the left panel and open them, zoom fit your signals).
+![Editor View](screenshots/4.png)
+![Editor View](screenshots/5.png)
+
 > ⚠️ **Note on VVTG**: Currently, only std_logic and std_logic_vector signal types are supported for simulation and waveform visualization.
 ---
 
