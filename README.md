@@ -62,6 +62,8 @@ Default VHDL file to start editing.
 
 ## 🚀 Getting Started
 
+> 🔴 **WARNING**: VVTG will face errors if your VHDL file has comments in some places so when in doubt why your design is not working make sure to remove comments.
+
 1. Run `start.bat` to launch Notepad++ with the default workspace.
 ![Editor View](screenshots/1.png)
 2. Edit `my_register.vhd` or create a new VHDL file or open a new worspace.
